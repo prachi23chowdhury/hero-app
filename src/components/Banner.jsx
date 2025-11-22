@@ -1,11 +1,11 @@
 import React from "react";
 import Googleplay from "../assets/Google.png";
 import Appstore from "../assets/App store.png";
-import hero from "../assets/hero.png";
+
 
 const Banner = () => {
   return (
-    <div className="w-full px-5 lg:px-20 py-20 text-center bg-base-100 pt-10">
+    <div className="w-full px-5 lg:px-20 py-20 text-center bg-base-100 pt-10 mb-2">
 
       <h1 className="text-4xl lg:text-5xl font-bold leading-tight text-gray-900">
         We Build <br />
@@ -34,13 +34,7 @@ const Banner = () => {
       </div>
 
      
-      <div className="mt-8 flex justify-center">
-        <img 
-          src={hero} alt="" 
-          className="w-[250px] sm:w-[300px] lg:w-[600px] mx-auto" 
-        />
-      </div>
-
+     
     </div>
   );
 };
