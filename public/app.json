@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://example.com/app1.png",
+    "title": "ChatMaster AI",
+    "companyName": "NeuroTech Labs",
+    "id": 1,
+    "description": "An AI-powered chat assistant to automate tasks, answer questions, and improve productivity.",
+    "size": 42,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 7100 }
+    ]
+  },
+  {
+    "image": "https://example.com/app2.png",
+    "title": "PhotoTune Pro",
+    "companyName": "PixelForge Inc",
+    "id": 2,
+    "description": "Professional photo editing app with filters, effects, and AI background removal.",
+    "size": 85,
+    "reviews": 8500,
+    "ratingAvg": 4.3,
+    "downloads": 32,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://example.com/app3.png",
+    "title": "FitTrack+",
+    "companyName": "WellnessSoft",
+    "id": 3,
+    "description": "Track your workouts, calories, sleep cycles, and fitness goals easily.",
+    "size": 56,
+    "reviews": 7600,
+    "ratingAvg": 4.5,
+    "downloads": 41,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 3850 }
+    ]
+  },
+  {
+    "image": "https://example.com/app4.png",
+    "title": "MusicFlow",
+    "companyName": "Harmony Digital",
+    "id": 4,
+    "description": "Stream millions of songs, create playlists, and enjoy curated music stations.",
+    "size": 98,
+    "reviews": 15500,
+    "ratingAvg": 4.7,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://example.com/app5.png",
+    "title": "TaskHero",
+    "companyName": "BoostWorks",
+    "id": 5,
+    "description": "Manage tasks, notes, reminders, and track productivity with smart tools.",
+    "size": 34,
+    "reviews": 5300,
+    "ratingAvg": 4.2,
+    "downloads": 21,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2250 }
+    ]
+  },
+  {
+    "image": "https://example.com/app6.png",
+    "title": "LearnX Academy",
+    "companyName": "BrainBox Co.",
+    "id": 6,
+    "description": "Online learning app with courses on coding, design, business, and more.",
+    "size": 121,
+    "reviews": 9100,
+    "ratingAvg": 4.8,
+    "downloads": 65,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5400 }
+    ]
+  },
+  {
+    "image": "https://example.com/app7.png",
+    "title": "NoteBoard",
+    "companyName": "OrganizeTech",
+    "id": 7,
+    "description": "A fast and simple note-taking app with cloud sync and reminders.",
+    "size": 18,
+    "reviews": 3100,
+    "ratingAvg": 4.1,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://example.com/app8.png",
+    "title": "QuickPay Wallet",
+    "companyName": "Finix Solutions",
+    "id": 8,
+    "description": "A secure mobile wallet for payments, transfers, bills, and online shopping.",
+    "size": 65,
+    "reviews": 11200,
+    "ratingAvg": 4.4,
+    "downloads": 72,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://example.com/app9.png",
+    "title": "Language Buddy",
+    "companyName": "LinguaSoft",
+    "id": 9,
+    "description": "Learn over 40 languages with lessons, quizzes, and real-time voice practice.",
+    "size": 72,
+    "reviews": 6200,
+    "ratingAvg": 4.6,
+    "downloads": 34,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3160 }
+    ]
+  },
+  {
+    "image": "https://example.com/app10.png",
+    "title": "RideMate",
+    "companyName": "UrbanMove",
+    "id": 10,
+    "description": "Find rides, share trips, and track your commute with real-time navigation.",
+    "size": 90,
+    "reviews": 13400,
+    "ratingAvg": 4.3,
+    "downloads": 88,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://example.com/app11.png",
+    "title": "BudgetPro",
+    "companyName": "MoneyGrid",
+    "id": 11,
+    "description": "Track expenses, set budgets, and manage your finances smarter.",
+    "size": 40,
+    "reviews": 4100,
+    "ratingAvg": 4.2,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1690 }
+    ]
+  },
+  {
+    "image": "https://example.com/app12.png",
+    "title": "GameHub",
+    "companyName": "PlayTech",
+    "id": 12,
+    "description": "Discover trending games, reviews, leaderboards, and live streams.",
+    "size": 110,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://example.com/app13.png",
+    "title": "WeatherCast",
+    "companyName": "SkySense",
+    "id": 13,
+    "description": "Accurate weather forecasts, alerts, radar maps, and climate updates.",
+    "size": 30,
+    "reviews": 6700,
+    "ratingAvg": 4.3,
+    "downloads": 35,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://example.com/app14.png",
+    "title": "FoodSpot",
+    "companyName": "Delish Networks",
+    "id": 14,
+    "description": "Find restaurants, order food, track delivery, and explore new cuisines.",
+    "size": 76,
+    "reviews": 14300,
+    "ratingAvg": 4.4,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://example.com/app15.png",
+    "title": "SecureVault",
+    "companyName": "Protectify",
+    "id": 15,
+    "description": "Store passwords, documents, and sensitive data securely with encryption.",
+    "size": 28,
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1530 }
+    ]
+  }
+]

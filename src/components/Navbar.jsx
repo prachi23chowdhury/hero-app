@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../src/assets/logo.png";
 import { FaGithub } from 'react-icons/fa';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
   return (
@@ -50,9 +51,9 @@ const Navbar = () => {
      
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a className='bg-primary-text font-semibold'>Home</a></li>
-          <li><a>Apps</a></li>
-          <li><a>Installation</a></li>
+          <li><NavLink to="/" className='bg-primary-text font-semibold'>Home</NavLink></li>
+          <li><NavLink to="apps">App</NavLink></li>
+          <li><NavLink to="installation">Installation</NavLink></li>
         </ul>
       </div>
 

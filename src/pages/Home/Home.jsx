@@ -1,8 +1,7 @@
 import React from 'react';
-import Navbar from '../../components/Navbar';
 import Banner from '../../components/Banner';
-import TrustedStats from '../../TrustedBy';
 import TrustedBy from '../../TrustedBy';
+import Apps from '../Apps/Apps';
 
 const Home = () => {
     return (
@@ -10,6 +9,7 @@ const Home = () => {
             
             <Banner></Banner>
            <TrustedBy></TrustedBy>
+        <Apps></Apps>
         </div>
     );
 };
