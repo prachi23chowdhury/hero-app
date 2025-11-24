@@ -6,6 +6,7 @@ import Home from '../pages/Home/Home';
 import Apps from '../pages/Apps/Apps';
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,7 @@ export const router = createBrowserRouter([
           path: "apps",
           Component: Apps
         },
+        
         {
           path: "installation"
         }
