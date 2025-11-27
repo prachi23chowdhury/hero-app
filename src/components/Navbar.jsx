@@ -31,9 +31,9 @@ const Navbar = () => {
             tabIndex={0} 
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li><a className='bg-primary-text'>Home</a></li>
-            <li><a>Apps</a></li>
-            <li><a>Installation</a></li>
+            <li><NavLink to="/"  className='bg-primary-text'>Home</NavLink></li>
+            <li><NavLink to="apps" >Apps</NavLink></li>
+            <li><NavLink to="instalation" >Installation</NavLink></li>
           </ul>
         </div>
 

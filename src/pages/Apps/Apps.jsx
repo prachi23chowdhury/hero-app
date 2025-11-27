@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaStar, FaDownload } from "react-icons/fa";
+import { FaStar, FaDownload, FaSearch } from "react-icons/fa";
 
 const App = () => {
   const [appsData, setAppsData] = useState([]);
@@ -27,25 +27,32 @@ const App = () => {
 
   return (
     <div className="p-5">
-      {/* Title Section */}
+     
       <div className="text-center mb-5">
         <h1 className="text-3xl font-bold">Our Apps</h1>
         <p className="text-gray-500">Discover the best apps for your needs</p>
       </div>
 
-      {/* Search + Total */}
       <div className="flex justify-between items-center mb-5">
-        <span>Total Apps: {filteredApps.length}</span>
-        <input
-          type="text"
-          placeholder="Search apps..."
-          className="border px-3 py-1 rounded"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-      </div>
 
-      {/* App Grid */}
+  <span className="font-bold">({filteredApps.length}) Total Apps</span>
+
+  <div className="relative">
+    <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
+
+    <input
+      type="text"
+      placeholder="Search apps..."
+      className="border px-3 py-1 rounded pl-9"
+      value={search}
+      onChange={(e) => setSearch(e.target.value)}
+    />
+  </div>
+
+</div>
+
+
+    
       {filteredApps.length === 0 ? (
         <p className="text-center text-red-500">No App Found</p>
       ) : (
@@ -53,7 +60,7 @@ const App = () => {
           {filteredApps.map((app) => (
             <div
               key={app.id}
-              className="border rounded p-3 bg-white shadow-sm hover:shadow-md transition cursor-pointer"
+              className="shadow-xl rounded p-3 bg-white hover:shadow-md transition cursor-pointer"
               onClick={() => alert(`Go to details of ${app.title}`)}
             >
               <img
