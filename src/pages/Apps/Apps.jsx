@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { FaStar, FaDownload, FaSearch } from "react-icons/fa";
+import { useNavigate } from "react-router";
 
 const App = () => {
   const [appsData, setAppsData] = useState([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     fetch("/app.json")
@@ -61,7 +63,7 @@ const App = () => {
             <div
               key={app.id}
               className="shadow-xl rounded p-3 bg-white hover:shadow-md transition cursor-pointer"
-              onClick={() => alert(`Go to details of ${app.title}`)}
+               onClick={() => navigate(`/apps/${app.id}`, { state: { app } })} 
             >
               <img
                 src={app.image}
