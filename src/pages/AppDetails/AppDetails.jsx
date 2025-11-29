@@ -1,14 +1,49 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router";
-import download from "../../assets/icon-downloads.png"
-import star from "../../assets/icon-ratings.png"
-import review from "../../assets/icon-review.png"
+import Swal from "sweetalert2";
+import download from "../../assets/icon-downloads.png";
+import star from "../../assets/icon-ratings.png";
+import review from "../../assets/icon-review.png";
 
 export default function AppDetails() {
-  const { id } = useParams();                          
+  const { id } = useParams();
   const location = useLocation();
   const [app, setApp] = useState(location.state?.app || null);
   const [loading, setLoading] = useState(!app);
+
+  const [installed, setInstalled] = useState(false);
+
+  useEffect(() => {
+    // Check if already installed
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    setInstalled(installedApps.includes(id));
+  }, [id]);
+
+  const handleInstall = () => {
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+
+    if (installedApps.includes(id)) {
+      Swal.fire({
+        icon: "info",
+        title: "Already Installed",
+        text: `${app.title} is already installed!`,
+      });
+      return;
+    }
+
+    installedApps.push(id);
+    localStorage.setItem("installedApps", JSON.stringify(installedApps));
+
+    Swal.fire({
+      icon: "success",
+      title: "Installed Successfully!",
+      text: `${app.title} has been installed.`,
+      timer: 1500,
+      showConfirmButton: false,
+    });
+
+    setInstalled(true);
+  };
 
   useEffect(() => {
     if (!app) {
@@ -32,30 +67,26 @@ export default function AppDetails() {
 
   return (
     <div className="w-full p-4 md:p-8 min-h-screen text-gray-800">
-
-      {/* ===================== TOP SECTION ===================== */}
       <div className="bg-white p-4 md:p-6 rounded-2xl shadow mb-6 ">
-
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-10">
 
-          {/* App Icon */}
-          <div className="w-40 h-40 md:w-56 md:h-56 bg-blue-100 rounded-2xl flex items-center justify-center text-5xl">
-           {app.image}
+          <div className="w-40 h-60 md:w-56 md:h-56 lg:w-150 rounded-3xl overflow-hidden">
+            <img
+              src={app.image}
+              className="w-full h-full object-cover"
+            />
           </div>
 
-          {/* Right Info */}
           <div className="w-full space-y-2 text-center lg:text-left">
             <h1 className="text-xl md:text-3xl font-bold">{app.title}</h1>
 
             <p className="text-sm text-gray-500">
-              Developed by <span className="font-semibold text-primary-text">{app.companyName}</span>
+              Developed by <span className="font-semibold">{app.companyName}</span>
             </p>
 
             <hr className="border-gray-300 my-4" />
 
-            {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mt-5">
-
               <div className="text-center">
                 <img src={download} className="w-10 mx-auto" />
                 <p className="font-bold text-2xl md:text-3xl">{app.downloads}M</p>
@@ -73,19 +104,31 @@ export default function AppDetails() {
                 <p className="font-bold text-2xl md:text-3xl">{app.reviews.toLocaleString()}</p>
                 <p className="text-gray-500 text-sm">Total Reviews</p>
               </div>
-
             </div>
 
-            <button className="mt-5 bg-[#00D390] text-white px-6 py-2 rounded-lg hover:bg-green-700 w-full sm:w-auto">
-              Install Now ({app.size} MB)
-            </button>
+            {/* Install Button with LocalStorage + SweetAlert2 */}
+            {installed ? (
+              <button
+                disabled
+                className="mt-5 bg-gray-400 cursor-not-allowed text-white px-6 py-2 rounded-lg w-full sm:w-auto"
+              >
+                Installed
+              </button>
+            ) : (
+              <button
+                onClick={handleInstall}
+                className="mt-5 bg-[#00D390] text-white px-6 py-2 rounded-lg hover:bg-green-700 w-full sm:w-auto"
+              >
+                Install Now ({app.size} MB)
+              </button>
+            )}
           </div>
         </div>
       </div>
-     <hr className="border-gray-300 my-4" />
-     
-      {/* ===================== RATINGS SECTION ===================== */}
-      <div className="bg-white p-4 md:p-6  shadow mb-6 ">
+
+      <hr className="border-gray-300 my-4" />
+
+      <div className="bg-white p-4 md:p-6 shadow mb-6 ">
         <h2 className="text-lg md:text-xl font-bold mb-4">Ratings</h2>
 
         {["5 star", "4 star", "3 star", "2 star", "1 star"].map((label, i) => {
@@ -104,8 +147,9 @@ export default function AppDetails() {
           );
         })}
       </div>
-         <hr className="border-gray-300 my-4" />
-      {/* ===================== DESCRIPTION ===================== */}
+
+      <hr className="border-gray-300 my-4" />
+
       <div className="bg-white p-4 md:p-6 rounded-2xl shadow ">
         <h2 className="text-lg md:text-xl font-bold mb-3">Description</h2>
         <p className="text-gray-700 mb-3">{app.description}</p>

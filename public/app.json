@@ -1,10 +1,10 @@
 [
   {
-    "image": "/src/assets/chatmaster.png",
+    "image": "/public/assets/chatmaster.png",
     "title": "ChatMaster AI",
     "companyName": "NeuroTech Labs",
     "id": 1,
-    "description": "An AI-powered chat assistant to automate tasks, answer questions, and improve productivity.\nIt helps you write faster, learn smarter, and complete tasks with intelligent suggestions.\nYou can generate ideas, summaries, and creative content with ease.\nIts smart algorithms understand context, tone, and user need better than basic chat tools.\nPerfect for students, creators, business users, and daily productivity.\nProvides fast, accurate, and personalized responses for every situation.",
+    "description": "An AI-powered chat assistant to automate tasks, answer questions, and improve productivity.\nIt helps you write faster, learn smarter, and complete tasks with intelligent suggestions.\nYou can generate ideas, summaries, and creative content with ease.\nIts smart algorithms understand context, tone, and user need better than basic chat tools.\nPerfect for students, creators, business users, and daily productivity.\nProvides fast, accurate, and personalized responses for every situation.      An AI-powered chat assistant to automate tasks, answer questions, and improve productivity.\nIt helps you write faster, learn smarter, and complete tasks with intelligent suggestions.\nYou can generate ideas, summaries, and creative content with ease.\nIts smart algorithms understand context, tone, and user need better than basic chat tools.\nPerfect for students, creators, business users, and daily productivity.\nProvides fast, accurate, and personalized responses for every situation",
     "size": 42,
     "reviews": 12000,
     "ratingAvg": 4.6,
@@ -18,11 +18,11 @@
     ]
   },
   {
-    "image": "/src/assets/phototune.png",
+    "image": "/public/assets/phototune.png",
     "title": "PhotoTune Pro",
     "companyName": "PixelForge Inc",
     "id": 2,
-    "description": "Professional photo editing app with filters, effects, and AI background removal.\nIt offers high-quality retouching tools for portraits and landscapes.\nUsers can instantly enhance brightness, contrast, and sharpness with one tap.\nAdvanced AI detects subjects and fixes imperfections automatically.\nPerfect for social media creators, photographers, and beginners.\nExports images in high resolution without losing quality.",
+    "description": "Professional photo editing app with filters, effects, and AI background removal.\nIt offers high-quality retouching tools for portraits and landscapes.\nUsers can instantly enhance brightness, contrast, and sharpness with one tap.\nAdvanced AI detects subjects and fixes imperfections automatically.\nPerfect for social media creators, photographers, and beginners.\nExports images in high resolution without losing quality.            Professional photo editing app with filters, effects, and AI background removal.\nIt offers high-quality retouching tools for portraits and landscapes.\nUsers can instantly enhance brightness, contrast, and sharpness with one tap.\nAdvanced AI detects subjects and fixes imperfections automatically.\nPerfect for social media creators, photographers, and beginners.\nExports images in high resolution without losing quality.",
     "size": 85,
     "reviews": 8500,
     "ratingAvg": 4.3,
@@ -36,11 +36,11 @@
     ]
   },
   {
-    "image": "/src/assets/Fittrack.webp",
+    "image": "/public/assets/Fittrack.webp",
     "title": "FitTrack+",
     "companyName": "WellnessSoft",
     "id": 3,
-    "description": "Track your workouts, calories, sleep cycles, and fitness goals easily.\nIncludes guided workout routines and calorie calculators.\nThe app provides weekly progress reports to keep you motivated.\nSleep tracking helps you understand rest quality and patterns.\nBest for gym lovers, athletes, and anyone starting a fitness journey.\nSimple interface with accurate health data and reminders.",
+    "description": "Track your workouts, calories, sleep cycles, and fitness goals easily.\nIncludes guided workout routines and calorie calculators.\nThe app provides weekly progress reports to keep you motivated.\nSleep tracking helps you understand rest quality and patterns.\nBest for gym lovers, athletes, and anyone starting a fitness journey.\nSimple interface with accurate health data and reminders.     Track your workouts, calories, sleep cycles, and fitness goals easily.\nIncludes guided workout routines and calorie calculators.\nThe app provides weekly progress reports to keep you motivated.\nSleep tracking helps you understand rest quality and patterns.\nBest for gym lovers, athletes, and anyone starting a fitness journey.\nSimple interface with accurate health data and reminders.",
     "size": 56,
     "reviews": 7600,
     "ratingAvg": 4.5,
@@ -54,11 +54,11 @@
     ]
   },
   {
-    "image": "/src/assets/music.png",
+    "image": "/public/assets/music.png",
     "title": "MusicFlow",
     "companyName": "Harmony Digital",
     "id": 4,
-    "description": "Stream millions of songs, create playlists, and enjoy curated music stations.\nProvides personalized recommendations based on mood and listening habits.\nEnjoy offline mode to listen anywhere without internet.\nHigh-quality audio options enhance the overall music experience.\nIncludes podcasts, trending charts, and artist radios.\nBeautiful UI designed for smooth navigation and discovery.",
+    "description": "Stream millions of songs, create playlists, and enjoy curated music stations.\nProvides personalized recommendations based on mood and listening habits.\nEnjoy offline mode to listen anywhere without internet.\nHigh-quality audio options enhance the overall music experience.\nIncludes podcasts, trending charts, and artist radios.\nBeautiful UI designed for smooth navigation and discovery.Stream millions of songs, create playlists, and enjoy curated music stations.\nProvides personalized recommendations based on mood and listening habits.\nEnjoy offline mode to listen anywhere without internet.\nHigh-quality audio options enhance the overall music experience.\nIncludes podcasts, trending charts, and artist radios.\nBeautiful UI designed for smooth navigation and discovery.",
     "size": 98,
     "reviews": 15500,
     "ratingAvg": 4.7,
@@ -72,11 +72,11 @@
     ]
   },
   {
-    "image": "/src/assets/taskhero.png",
+    "image": "/public/assets/taskhero.png",
     "title": "TaskHero",
     "companyName": "BoostWorks",
     "id": 5,
-    "description": "Manage tasks, notes, reminders, and track productivity with smart tools.\nOrganize work into categories and color-coded lists.\nDaily and weekly views help you stay on top of everything.\nBuilt-in reminders make sure you never miss anything important.\nPerfect for students, office workers, and personal planning.\nClean interface ensures quick task creation and tracking.",
+    "description": "Manage tasks, notes, reminders, and track productivity with smart tools.\nOrganize work into categories and color-coded lists.\nDaily and weekly views help you stay on top of everything.\nBuilt-in reminders make sure you never miss anything important.\nPerfect for students, office workers, and personal planning.\nClean interface ensures quick task creation and tracking. Manage tasks, notes, reminders, and track productivity with smart tools.\nOrganize work into categories and color-coded lists.\nDaily and weekly views help you stay on top of everything.\nBuilt-in reminders make sure you never miss anything important.\nPerfect for students, office workers, and personal planning.\nClean interface ensures quick task creation and tracking.",
     "size": 34,
     "reviews": 5300,
     "ratingAvg": 4.2,
@@ -90,11 +90,11 @@
     ]
   },
   {
-    "image": "/src/assets/learn.png",
+    "image": "/public/assets/learn.png",
     "title": "LearnX Academy",
     "companyName": "BrainBox Co.",
     "id": 6,
-    "description": "Online learning app with courses on coding, design, business, and more.\nIncludes video lessons, quizzes, assignments, and certificates.\nLearn from industry experts with updated and practical content.\nTrack your learning streaks and progress easily.\nPerfect for beginners as well as advanced learners.\nBuild career-ready skills anytime from your phone.",
+    "description": "Online learning app with courses on coding, design, business, and more.\nIncludes video lessons, quizzes, assignments, and certificates.\nLearn from industry experts with updated and practical content.\nTrack your learning streaks and progress easily.\nPerfect for beginners as well as advanced learners.\nBuild career-ready skills anytime from your phone. Online learning app with courses on coding, design, business, and more.\nIncludes video lessons, quizzes, assignments, and certificates.\nLearn from industry experts with updated and practical content.\nTrack your learning streaks and progress easily.\nPerfect for beginners as well as advanced learners.\nBuild career-ready skills anytime from your phone.",
     "size": 121,
     "reviews": 9100,
     "ratingAvg": 4.8,
@@ -108,11 +108,11 @@
     ]
   },
   {
-    "image": "/src/assets/noteboard.png",
+    "image": "/public/assets/noteboard.png",
     "title": "NoteBoard",
     "companyName": "OrganizeTech",
     "id": 7,
-    "description": "A fast and simple note-taking app with cloud sync and reminders.\nSupports text notes, checklists, and quick memos.\nAll notes sync automatically across devices.\nLightweight design ensures smooth and fast performance.\nPerfect for study notes, shopping lists, and work ideas.\nBackup options keep your important notes safe.",
+    "description": "A fast and simple note-taking app with cloud sync and reminders.\nSupports text notes, checklists, and quick memos.\nAll notes sync automatically across devices.\nLightweight design ensures smooth and fast performance.\nPerfect for study notes, shopping lists, and work ideas.\nBackup options keep your important notes safe. A fast and simple note-taking app with cloud sync and reminders.\nSupports text notes, checklists, and quick memos.\nAll notes sync automatically across devices.\nLightweight design ensures smooth and fast performance.\nPerfect for study notes, shopping lists, and work ideas.\nBackup options keep your important notes safe.",
     "size": 18,
     "reviews": 3100,
     "ratingAvg": 4.1,
@@ -126,11 +126,11 @@
     ]
   },
   {
-    "image": "/src/assets/quick.webp",
+    "image": "/public/assets/quick.webp",
     "title": "QuickPay Wallet",
     "companyName": "Finix Solutions",
     "id": 8,
-    "description": "A secure mobile wallet for payments, transfers, bills, and online shopping.\nInstant money transfer features make transactions easy.\nSupports QR payments for fast offline purchases.\nAdvanced security ensures safe storage of personal information.\nBill reminders help you pay on time every month.\nDesigned for fast, simple, and safe financial management.",
+    "description": "A secure mobile wallet for payments, transfers, bills, and online shopping.\nInstant money transfer features make transactions easy.\nSupports QR payments for fast offline purchases.\nAdvanced security ensures safe storage of personal information.\nBill reminders help you pay on time every month.\nDesigned for fast, simple, and safe financial management. A secure mobile wallet for payments, transfers, bills, and online shopping.\nInstant money transfer features make transactions easy.\nSupports QR payments for fast offline purchases.\nAdvanced security ensures safe storage of personal information.\nBill reminders help you pay on time every month.\nDesigned for fast, simple, and safe financial management.",
     "size": 65,
     "reviews": 11200,
     "ratingAvg": 4.4,
@@ -144,11 +144,11 @@
     ]
   },
   {
-    "image": "/src/assets/language.jpg",
+    "image": "/public/assets/language.jpg",
     "title": "Language Buddy",
     "companyName": "LinguaSoft",
     "id": 9,
-    "description": "Learn over 40 languages with lessons, quizzes, and real-time voice practice.\nFriendly learning methods help beginners start easily.\nVoice recognition improves your pronunciation and speaking skills.\nDaily practice reminders keep your progress consistent.\nIncludes vocabulary games and listening exercises.\nHelps build real conversation confidence step by step.",
+    "description": "Learn over 40 languages with lessons, quizzes, and real-time voice practice.\nFriendly learning methods help beginners start easily.\nVoice recognition improves your pronunciation and speaking skills.\nDaily practice reminders keep your progress consistent.\nIncludes vocabulary games and listening exercises.\nHelps build real conversation confidence step by step. Learn over 40 languages with lessons, quizzes, and real-time voice practice.\nFriendly learning methods help beginners start easily.\nVoice recognition improves your pronunciation and speaking skills.\nDaily practice reminders keep your progress consistent.\nIncludes vocabulary games and listening exercises.\nHelps build real conversation confidence step by step.",
     "size": 72,
     "reviews": 6200,
     "ratingAvg": 4.6,
@@ -162,11 +162,11 @@
     ]
   },
   {
-    "image": "/src/assets/ride.png",
+    "image": "/public/assets/ride.png",
     "title": "RideMate",
     "companyName": "UrbanMove",
     "id": 10,
-    "description": "Find rides, share trips, and track your commute with real-time navigation.\nLive traffic updates help avoid delays.\nAccurate route planning makes trips faster and easier.\nGreat for daily office travel and long journeys.\nShows fare estimates before booking.\nSafe and reliable ride experience for everyone.",
+    "description": "Find rides, share trips, and track your commute with real-time navigation.\nLive traffic updates help avoid delays.\nAccurate route planning makes trips faster and easier.\nGreat for daily office travel and long journeys.\nShows fare estimates before booking.\nSafe and reliable ride experience for everyone. Find rides, share trips, and track your commute with real-time navigation.\nLive traffic updates help avoid delays.\nAccurate route planning makes trips faster and easier.\nGreat for daily office travel and long journeys.\nShows fare estimates before booking.\nSafe and reliable ride experience for everyone.",
     "size": 90,
     "reviews": 13400,
     "ratingAvg": 4.3,
@@ -180,11 +180,11 @@
     ]
   },
   {
-    "image": "/src/assets/budget.png",
+    "image": "/public/assets/budget.png",
     "title": "BudgetPro",
     "companyName": "MoneyGrid",
     "id": 11,
-    "description": "Track expenses, set budgets, and manage your finances smarter.\nAutomatically categories spending for better clarity.\nMonthly insights show where your money goes.\nBudget alerts help you avoid overspending.\nA perfect app for students and families.\nEasy to use and beginner-friendly financial tool.",
+    "description": "Track expenses, set budgets, and manage your finances smarter.\nAutomatically categories spending for better clarity.\nMonthly insights show where your money goes.\nBudget alerts help you avoid overspending.\nA perfect app for students and families.\nEasy to use and beginner-friendly financial tool. Track expenses, set budgets, and manage your finances smarter.\nAutomatically categories spending for better clarity.\nMonthly insights show where your money goes.\nBudget alerts help you avoid overspending.\nA perfect app for students and families.\nEasy to use and beginner-friendly financial tool.",
     "size": 40,
     "reviews": 4100,
     "ratingAvg": 4.2,
@@ -198,11 +198,11 @@
     ]
   },
   {
-    "image": "/src/assets/gamehub.png",
+    "image": "/public/assets/gamehub.png",
     "title": "GameHub",
     "companyName": "PlayTech",
     "id": 12,
-    "description": "Discover trending games, reviews, leaderboards, and live streams.\nStay updated with latest releases and gaming news.\nFind community recommendations to explore new games.\nWatch professional players and join competitive events.\nBookmark your favorite games for quick access.\nPerfect place for every type of gamer.",
+    "description": "Discover trending games, reviews, leaderboards, and live streams.\nStay updated with latest releases and gaming news.\nFind community recommendations to explore new games.\nWatch professional players and join competitive events.\nBookmark your favorite games for quick access.\nPerfect place for every type of gamer. Discover trending games, reviews, leaderboards, and live streams.\nStay updated with latest releases and gaming news.\nFind community recommendations to explore new games.\nWatch professional players and join competitive events.\nBookmark your favorite games for quick access.\nPerfect place for every type of gamer.",
     "size": 110,
     "reviews": 9800,
     "ratingAvg": 4.5,
@@ -216,11 +216,11 @@
     ]
   },
   {
-    "image": "/src/assets/weather.png",
+    "image": "/public/assets/weather.png",
     "title": "WeatherCast",
     "companyName": "SkySense",
     "id": 13,
-    "description": "Accurate weather forecasts, alerts, radar maps, and climate updates.\nHourly and weekly forecasts help plan your day.\nRain and storm alerts keep you safe during emergencies.\nInteractive maps show wind, humidity, and temperature changes.\nIdeal for travelers, outdoor workers, and students.\nProvides clean and simple weather visualization.",
+    "description": "Accurate weather forecasts, alerts, radar maps, and climate updates.\nHourly and weekly forecasts help plan your day.\nRain and storm alerts keep you safe during emergencies.\nInteractive maps show wind, humidity, and temperature changes.\nIdeal for travelers, outdoor workers, and students.\nProvides clean and simple weather visualization. Accurate weather forecasts, alerts, radar maps, and climate updates.\nHourly and weekly forecasts help plan your day.\nRain and storm alerts keep you safe during emergencies.\nInteractive maps show wind, humidity, and temperature changes.\nIdeal for travelers, outdoor workers, and students.\nProvides clean and simple weather visualization.",
     "size": 30,
     "reviews": 6700,
     "ratingAvg": 4.3,
@@ -234,11 +234,11 @@
     ]
   },
   {
-    "image": "/src/assets/foodspot_logo.jpg",
+    "image": "/public/assets/foodspot_logo.jpg",
     "title": "FoodSpot",
     "companyName": "Delish Networks",
     "id": 14,
-    "description": "Find restaurants, order food, track delivery, and explore new cuisines.\nBrowse menus with photos and customer reviews.\nReal-time delivery tracking shows every step.\nSave favorite restaurants for quick ordering.\nExclusive deals and discounts available daily.\nFast, reliable, and easy food ordering experience.",
+    "description": "Find restaurants, order food, track delivery, and explore new cuisines.\nBrowse menus with photos and customer reviews.\nReal-time delivery tracking shows every step.\nSave favorite restaurants for quick ordering.\nExclusive deals and discounts available daily.\nFast, reliable, and easy food ordering experience. Find restaurants, order food, track delivery, and explore new cuisines.\nBrowse menus with photos and customer reviews.\nReal-time delivery tracking shows every step.\nSave favorite restaurants for quick ordering.\nExclusive deals and discounts available daily.\nFast, reliable, and easy food ordering experience.",
     "size": 76,
     "reviews": 14300,
     "ratingAvg": 4.4,
@@ -252,11 +252,11 @@
     ]
   },
   {
-    "image": "/src/assets/secure.png",
+    "image": "/public/assets/secure.png",
     "title": "SecureVault",
     "companyName": "Protectify",
     "id": 15,
-    "description": "Store passwords, documents, and sensitive data securely with encryption.\nSupports biometric lock for extra protection.\nCloud backup ensures your data is never lost.\nOrganize files into secure folders easily.\nDesigned for professionals and privacy-focused users.\nSimple interface with maximum security.",
+    "description": "Store passwords, documents, and sensitive data securely with encryption.\nSupports biometric lock for extra protection.\nCloud backup ensures your data is never lost.\nOrganize files into secure folders easily.\nDesigned for professionals and privacy-focused users.\nSimple interface with maximum security. Store passwords, documents, and sensitive data securely with encryption.\nSupports biometric lock for extra protection.\nCloud backup ensures your data is never lost.\nOrganize files into secure folders easily.\nDesigned for professionals and privacy-focused users.\nSimple interface with maximum security.",
     "size": 28,
     "reviews": 2800,
     "ratingAvg": 4.7,
