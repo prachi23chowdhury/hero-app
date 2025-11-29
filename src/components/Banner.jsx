@@ -1,6 +1,7 @@
 import React from "react";
 import Googleplay from "../assets/Google.png";
 import Appstore from "../assets/App store.png";
+import { Link } from "react-router";
 
 
 const Banner = () => {
@@ -24,12 +25,12 @@ const Banner = () => {
       <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
         <button className="btn gap-2 px-6 py-3 rounded-lg border-2">
           <img className="w-[20px] h-[20px]" src={Googleplay} alt="" />
-          Google Play
+          <Link to="https://play.google.com/store/games?hl=en">Google Play</Link> 
         </button>
 
         <button className="btn gap-2 px-6 py-3 rounded-lg border-2">
           <img className="w-[20px] h-[20px]" src={Appstore} alt="" />
-          App Store
+         <Link to="https://www.apple.com/app-store/"> App Store</Link>
         </button>
       </div>
 
