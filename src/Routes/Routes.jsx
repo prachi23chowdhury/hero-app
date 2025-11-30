@@ -6,6 +6,7 @@ import Home from '../pages/Home/Home';
 import Apps from '../pages/Apps/Apps';
 import AppDetails from '../pages/AppDetails/AppDetails';
 import MyInstallation from '../pages/MyInstalation/MyInstalation';
+import AppError from '../pages/AppError/AppError';
 
 
 
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <AppError /> ,
     children: [
         {
             index: true,
@@ -39,4 +40,5 @@ export const router = createBrowserRouter([
     path: "*",
     element: <ErrorPage></ErrorPage>,
   },
+  
 ]);

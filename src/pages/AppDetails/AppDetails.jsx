@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useLocation } from "react-router";
+import { useParams, useLocation, useNavigate } from "react-router";
 import Swal from "sweetalert2";
 import download from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
@@ -12,7 +12,7 @@ export default function AppDetails() {
   const [loading, setLoading] = useState(!app);
 
   const [installed, setInstalled] = useState(false);
-
+ const navigate = useNavigate();
   useEffect(() => {
     // Check if already installed
     const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
@@ -45,25 +45,28 @@ export default function AppDetails() {
     setInstalled(true);
   };
 
-  useEffect(() => {
-    if (!app) {
-      setLoading(true);
-      fetch("/app.json")
-        .then((res) => res.json())
-        .then((data) => {
-          const found = data.find((item) => String(item.id) === String(id));
-          setApp(found || null);
-          setLoading(false);
-        })
-        .catch((err) => {
-          console.error("Error fetching app data:", err);
-          setLoading(false);
-        });
-    }
-  }, [app, id]);
+ useEffect(() => {
+  if (!app) {
+    setLoading(true);
+    fetch("/app.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const found = data.find((item) => String(item.id) === String(id));
+        setApp(found || null);
+        setLoading(false);
 
-  if (loading) return <p className="text-center mt-10">Loading...</p>;
-  if (!app) return <p className="text-center mt-10 text-red-500">App not found</p>;
+        if (!found) {
+          navigate("/app-error");   
+        }
+      })
+      .catch((err) => {
+        console.error("Error fetching app data:", err);
+        setLoading(false);
+        navigate("/app-error");     
+      });
+  }
+}, [app, id]);
+
 
   return (
     <div className="w-full p-4 md:p-8 min-h-screen text-gray-800">
