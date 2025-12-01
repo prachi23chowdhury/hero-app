@@ -23,7 +23,7 @@ const TopApps = () => {
           <Link 
             key={app.id}
             to={`/apps/${app.id}`}
-            state={{ app }}       // <=== IMPORTANT: Passing app data
+            state={{ app }}      
             className="shadow-xl p-3 rounded cursor-pointer hover:shadow-md transition block"
           >
             <img

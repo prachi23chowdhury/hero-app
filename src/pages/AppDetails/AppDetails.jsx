@@ -14,7 +14,7 @@ export default function AppDetails() {
   const [installed, setInstalled] = useState(false);
  const navigate = useNavigate();
   useEffect(() => {
-    // Check if already installed
+    
     const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
     setInstalled(installedApps.includes(id));
   }, [id]);
@@ -109,7 +109,7 @@ export default function AppDetails() {
               </div>
             </div>
 
-            {/* Install Button with LocalStorage + SweetAlert2 */}
+         
             {installed ? (
               <button
                 disabled
