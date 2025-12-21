@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaDownload, FaStar } from "react-icons/fa";
 import { Link } from "react-router";
+import Loading from "./LoadingSpinner/Loading";
 
 const TopApps = () => {
   const [topApps, setTopApps] = useState([]);
