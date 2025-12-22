@@ -3,9 +3,11 @@ import Banner from '../../components/Banner';
 import TrustedBy from '../../TrustedBy';
 import Apps from '../Apps/Apps';
 import TopApps from '../../components/TopApps';
-import { RingLoader } from 'react-spinners';
+import Title from '../../components/Title';
+
 
 const Home = () => {
+    Title('Home | HeroApp');
     return (
         <div>
            

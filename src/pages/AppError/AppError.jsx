@@ -3,8 +3,10 @@ import { useNavigate } from 'react-router';
 import appError from "../../assets/App-Error.png"
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import Title from '../../components/Title';
 
 const AppError = () => {
+  Title('AppError | HeroApp');
   const navigate = useNavigate();
 
   return (

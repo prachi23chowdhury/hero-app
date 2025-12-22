@@ -4,8 +4,10 @@ import Swal from "sweetalert2";
 import download from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
 import review from "../../assets/icon-review.png";
+import Title from "../../components/Title";
 
 export default function AppDetails() {
+  Title('AppsDetails | HeroApp');
   const { id } = useParams();
   const location = useLocation();
   const [app, setApp] = useState(location.state?.app || null);
