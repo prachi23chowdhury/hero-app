@@ -1,6 +1,6 @@
 [
   {
-    "image": "/public/assets/chatmaster.png",
+    "image": "/assets/chatmaster.png",
     "title": "ChatMaster AI",
     "companyName": "NeuroTech Labs",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "/public/assets/phototune.png",
+    "image": "/assets/phototune.png",
     "title": "PhotoTune Pro",
     "companyName": "PixelForge Inc",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "/public/assets/Fittrack.webp",
+    "image": "/assets/Fittrack.webp",
     "title": "FitTrack+",
     "companyName": "WellnessSoft",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "/public/assets/music.png",
+    "image": "/assets/music.png",
     "title": "MusicFlow",
     "companyName": "Harmony Digital",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "/public/assets/taskhero.png",
+    "image": "/assets/taskhero.png",
     "title": "TaskHero",
     "companyName": "BoostWorks",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "/public/assets/learn.png",
+    "image": "/assets/learn.png",
     "title": "LearnX Academy",
     "companyName": "BrainBox Co.",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "/public/assets/noteboard.png",
+    "image": "/assets/noteboard.png",
     "title": "NoteBoard",
     "companyName": "OrganizeTech",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "/public/assets/quick.webp",
+    "image": "/assets/quick.webp",
     "title": "QuickPay Wallet",
     "companyName": "Finix Solutions",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "/public/assets/language.jpg",
+    "image": "/assets/language.jpg",
     "title": "Language Buddy",
     "companyName": "LinguaSoft",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "/public/assets/ride.png",
+    "image": "/assets/ride.png",
     "title": "RideMate",
     "companyName": "UrbanMove",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "/public/assets/budget.png",
+    "image": "/assets/budget.png",
     "title": "BudgetPro",
     "companyName": "MoneyGrid",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "/public/assets/gamehub.png",
+    "image": "/assets/gamehub.png",
     "title": "GameHub",
     "companyName": "PlayTech",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "/public/assets/weather.png",
+    "image": "/assets/weather.png",
     "title": "WeatherCast",
     "companyName": "SkySense",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "/public/assets/foodspot_logo.jpg",
+    "image": "/assets/foodspot_logo.jpg",
     "title": "FoodSpot",
     "companyName": "Delish Networks",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "/public/assets/secure.png",
+    "image": "/assets/secure.png",
     "title": "SecureVault",
     "companyName": "Protectify",
     "id": 15,
